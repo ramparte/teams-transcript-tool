@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "teams-transcript"
+version = "0.1.0"
+description = "Convert Teams meeting transcripts (VTT/DOCX) to clean Markdown"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "python-docx>=0.8.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+teams-transcript = "teams_transcript.main:convert"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/teams_transcript"]
