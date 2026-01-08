@@ -51,8 +51,8 @@ def parse_vtt(file_path: Path | str) -> list[Utterance]:
         r"(\d{2}:\d{2}:\d{2})\.\d{3}\s*-->\s*\d{2}:\d{2}:\d{2}\.\d{3}"
     )
 
-    # Pattern to match speaker tags: <v Speaker Name>text</v>
-    speaker_pattern = re.compile(r"<v\s+([^>]+)>([^<]*)</v>")
+    # Pattern to match speaker tags: <v Speaker Name>text</v> or <v Speaker Name>text (no closing tag)
+    speaker_pattern = re.compile(r"<v\s+([^>]+)>(.*)(?:</v>)?$")
 
     lines = content.split("\n")
     current_timestamp = "00:00:00"
