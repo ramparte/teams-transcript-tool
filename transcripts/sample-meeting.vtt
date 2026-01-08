@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:04.520
+<v John Smith>Hello everyone, welcome to today's meeting.
+
+00:00:05.100 --> 00:00:08.340
+<v Sarah Johnson>Thanks for having me. I'd like to start with the Q4 roadmap.
+
+00:00:09.200 --> 00:00:12.890
+<v John Smith>Great, let's dive in. What are the top priorities?
+
+00:00:13.450 --> 00:00:18.720
+<v Sarah Johnson>The analytics dashboard redesign is our primary focus for this quarter.
+
+00:00:19.100 --> 00:00:24.560
+<v Michael Chen>I agree with Sarah. We should also consider the API integration work.
+
+00:00:25.200 --> 00:00:29.880
+<v John Smith>Good points. Let's break this down into specific action items.
+
+00:00:30.500 --> 00:00:35.120
+<v Sarah Johnson>I can take the lead on the dashboard. Michael, can you handle the API side?
+
+00:00:35.800 --> 00:00:38.450
+<v Michael Chen>Absolutely, I'll coordinate with the backend team.
+
+00:00:39.200 --> 00:00:44.100
+<v John Smith>Perfect. Sarah, what's the timeline looking like for the dashboard?
+
+00:00:44.800 --> 00:00:49.560
+<v Sarah Johnson>I'm estimating about six weeks for the initial release. We'll need design reviews at week two and four.
+
+00:00:50.200 --> 00:00:54.890
+<v Michael Chen>The API work should align well with that. I can have the endpoints ready by week three.
+
+00:00:55.500 --> 00:01:00.120
+<v John Smith>Excellent. Any blockers we should discuss?
+
+00:01:00.800 --> 00:01:05.340
+<v Sarah Johnson>We need final sign-off on the design specs from the product team.
+
+00:01:06.000 --> 00:01:10.450
+<v Michael Chen>And I'll need access to the staging environment for testing.
+
+00:01:11.100 --> 00:01:15.780
+<v John Smith>I'll follow up on both of those today. Anything else before we wrap up?
+
+00:01:16.400 --> 00:01:19.200
+<v Sarah Johnson>I think we're good. Thanks everyone!
+
+00:01:19.800 --> 00:01:21.500
+<v Michael Chen>Thanks, talk soon.
